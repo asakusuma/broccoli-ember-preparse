@@ -1,0 +1,31 @@
+{
+  "name": "broccoli-ember-preparse",
+  "version": "0.0.1",
+  "description": "Broccoli plugin that applies some compile time performance optimizations to an ember build. ",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/asakusuma/broccoli-ember-preparse.git"
+  },
+  "keywords": [
+    "broccoli-plugin",
+    "compiler",
+    "Ember",
+    "javascript",
+    "js"
+  ],
+  "author": "Asa Kusuma <asa.kusuma@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/asakusuma/broccoli-ember-preparse/issues"
+  },
+  "homepage": "https://github.com/asakusuma/broccoli-ember-preparse/",
+  "dependencies": {
+    "broccoli-caching-writer": "^2.2.1",
+    "walk-sync": "^0.2.6"
+  },
+  "devDependencies": {
+    "broccoli": "^0.16.3"
+  }
+}
