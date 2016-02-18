@@ -12,5 +12,5 @@ var emberPreparse = require('broccoli-ember-preparse');
 
 // distTree must include the ember.debug.js and ember.prod.js files
 // loaderPackageTree must include ember's loader package
-var tree = emberPreparse(distTree, loaderPackageTree);
+var newDistTree = emberPreparse(distTree, loaderPackageTree);
 ```
