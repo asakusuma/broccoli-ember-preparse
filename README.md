@@ -8,9 +8,12 @@ Credit to [Chad Hietala](https://github.com/chadhietala) and [Kris Selden](https
 ## Usage
 
 ``` javascript
-var emberPreparse = require('broccoli-ember-preparse');
+var preparse = require('broccoli-ember-preparse');
+var Funnel = require('broccoli-funnel');
 
-// distTree must include the ember.debug.js and ember.prod.js files
-// loaderPackageTree must include ember's loader package
-var newDistTree = emberPreparse(distTree, loaderPackageTree);
+var bowerDist = new Funnel('bower_components/ember', {
+  exclude: ['.bower.json']
+});
+var options = {};
+var newDist = preparse(bowerDist, options);
 ```
