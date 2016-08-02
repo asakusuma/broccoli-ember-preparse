@@ -1,6 +1,6 @@
 {
   "name": "broccoli-ember-preparse",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Broccoli plugin that applies some compile time performance optimizations to an ember build. ",
   "main": "index.js",
   "scripts": {},
@@ -26,6 +26,7 @@
     "babel-traverse": "^6.5.0",
     "babylon": "^6.5.0",
     "broccoli-caching-writer": "^3.0.0",
+    "debug": "^2.2.0",
     "graphlib": "^2.0.0",
     "rsvp": "^3.2.0",
     "walk-sync": "^0.3.0"
